@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/*Container Styles*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Text Styles */
+.heading {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+}
+.progress-bar-value {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Progress Bar Track Styles*/
+.progress-bar-track {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #D1D1D1;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+/* Desktop*/
+@media (min-width: 600px) {
+    .progress-bar-track {
+        width: 500px;
+    }
+}
