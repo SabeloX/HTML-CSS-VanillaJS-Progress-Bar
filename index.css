@@ -22,7 +22,7 @@ body, html {
 .progress-bar-value {
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
-    color: #06113C
+    color: #fff
 }
 
 /*Progress Bar Track Styles*/
@@ -33,11 +33,11 @@ body, html {
     background-color: #D1D1D1;
 }
 .progress-bar-thumb {
-    display: flex;
+    display: none;
     align-items: center;
     border-radius: 20px;
     background-color: #B20600;
-    width: 20%;
+    width: 0%;
     height: 40px;
     padding-left: 15px;
 }
