@@ -22,4 +22,8 @@ async function progress() {
         };
     }
 }
-progress()
+progress();
+
+const button = document.querySelector(".reset-button");
+
+button.addEventListener("click", () => location.reload());
